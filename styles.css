@@ -16,12 +16,11 @@
     line-height:1.25;
     font-size: 16px;
 }
- 
-  li {
-    list-style: none; vertical-align: middle;
-  }
 
-  /*NAVIGATION BAR*/
+ li { 
+     list-style-type: none;
+}
+/*NAVIGATION BAR*/
  
   nav {
     height: 100px;
@@ -37,8 +36,10 @@
     display: flex;
   }
 
-  .nav___link--list li {
-    margin: 0 20px;
-    color: black
+  .nav___link--anchor {
+    margin: 0 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
   }
 
