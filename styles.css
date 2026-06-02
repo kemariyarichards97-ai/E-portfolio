@@ -19,6 +19,7 @@
 
  li { 
      list-style-type: none;
+     color: black;
 }
 /*NAVIGATION BAR*/
  
@@ -32,16 +33,14 @@
     align-items: center;
   }
 
-  .navlink__link--list {
+   .navlink__link--list {
     display: flex;
     gap: 2rem;
     justify-content: center;
   }
 
-  .nav___link--anchor {
+  .nav__link--anchor {
     color: black;
     text-decoration: none;
     font-weight: 700;
   }
-
-
