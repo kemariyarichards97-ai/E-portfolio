@@ -108,7 +108,7 @@
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
-
+  gap: 16px;
 }
 
 .about-me__picture--mask {
@@ -143,6 +143,7 @@ margin-bottom:28px;
   text-decoration: none;
   padding: 0 16px;
 }
+
 
 
 
