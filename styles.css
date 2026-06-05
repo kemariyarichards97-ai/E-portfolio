@@ -13,7 +13,7 @@
  }
 
  h1{
-  font-size: 36p;
+ font-size: 36px;
  }
 
  p{
@@ -105,6 +105,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
 }
 
 .about-me__picture--mask {
@@ -122,6 +126,15 @@ margin-bottom:28px;
   /* improving my own picture */
   transform: scale(1.5);
   padding-top: 8px;
+}
+
+.about-me__info--tittle {
+  margin-bottom: 16px;
+}
+
+.about-me__info--para {
+  font-size: 20px;
+  margin-bottom: 28px;
 }
 
 
