@@ -148,6 +148,10 @@ margin-bottom:28px;
   padding: 0 16px;
 }
 
+.about-me__img--container {
+  flex: 1;
+}
+
 
 
 
