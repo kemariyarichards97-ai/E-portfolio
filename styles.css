@@ -32,6 +32,10 @@
   flex: 1;
 }
 
+.container {
+  padding: 50px 0;
+}
+
 .row {
   width: 100%;
   max-width: 800px;
@@ -40,6 +44,15 @@
 
 .text--purple {
   color: #6030b1;
+}
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.section__title {
+  margin-bottom: 20px;
+
 }
 
 /*NAVIGATION BAR*/
@@ -156,8 +169,28 @@ margin-bottom:28px;
 }
 
 .about-me__img {
-  width: 100;
+  width: 100%;
 }
+
+/* TECH-STAK */
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language__img--wrapper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 25%;
+}
+
+.language__list {
+  display: flex;
+}
+
+
 
 
 
