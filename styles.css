@@ -176,12 +176,9 @@ margin-bottom:28px;
 
 .language__img {
   width: 100%;
-  max-width: 100px;
+  max-width: 80px;
 }
 
-.language {
-  width: 25%;
-}
 
 .language__img--wrapper {
  display: flex;
@@ -193,6 +190,8 @@ margin-bottom:28px;
   display: flex;
   width: 100%;
 }
+
+
 
 
 
