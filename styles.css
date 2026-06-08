@@ -113,10 +113,6 @@ section:nth-child(even) {
   flex-direction: column;
 }
 
-.about-me__info {
-  
-}
-
 .about-me__info--container {
   border: 3px solid #6030b1;
   border-radius: 12px;
@@ -149,7 +145,7 @@ margin-bottom:28px;
   padding-top: 8px;
 }
 
-.about-me__info--tittle {
+ .about-me__info--title {
   margin-bottom: 16px;
 }
 
