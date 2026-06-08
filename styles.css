@@ -280,21 +280,42 @@ nav {
   }
 }
 
+/* projects */
+
 .project__wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.45);
+  max-width: 800px;
+  margin: 120px auto 0 auto; /* centers it and moves it below header */
 }
 
 .project__img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  display: block;
 }
 
-.project__wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
+.project__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1d25;
+  opacity: 0;
+  transition: opacity 450ms ease;
 }
+.project:hover .project__wrapper:before {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
