@@ -194,6 +194,7 @@ margin-bottom:28px;
   justify-content: center;
   align-items: center;
   gap: 8px;
+  position: relative;
 }
 
 .language__img {
@@ -209,20 +210,9 @@ margin-bottom:28px;
 }
 
 .language__name {
-  position: absolute;
-  bottom: 0;
+  position: static;
+  font-size: 14px;
+  font-weight: bold;
+  color: #D3AF37;
+  text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
