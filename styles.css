@@ -190,8 +190,10 @@ margin-bottom:28px;
 
 .language__img--wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 8px;
 }
 
 .language__img {
