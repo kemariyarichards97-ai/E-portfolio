@@ -18,7 +18,7 @@ h4,
 h5,
 h6,
 span {
-  color: #D3AF37;
+  color: #0a0801;
   text-align: center;
   line-height: 1.25;
 }
@@ -220,4 +220,62 @@ nav {
 /* Show only when hovering over the icon card */
 .language__img--wrapper:hover .language__name {
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 20px;
+  }
+
+  .navlink__link--list {
+    gap: 16px;
+  }
+
+  .about-me__info--container {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .about-me__info--title {
+    font-size: 28px;
+  }
+
+  .about-me__info--para {
+    font-size: 16px;
+  }
+
+  .about-me__img {
+    max-width: 100%;
+  }
+
+  .about-me__links {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .language {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .about-me__picture--mask {
+    width: 90px;
+    height: 90px;
+  }
+
+  .about-me__info--title {
+    font-size: 24px;
+  }
+
+  .language {
+    width: 100%;
+  }
 }
