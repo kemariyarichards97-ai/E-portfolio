@@ -186,6 +186,7 @@ margin-bottom:28px;
   display: flex;
   justify-content: center;
   padding: 25px 16px;
+  min-heigh: 180px;
 }
 
 .language__img--wrapper {
@@ -195,6 +196,7 @@ margin-bottom:28px;
   align-items: center;
   gap: 8px;
   position: relative;
+  
 }
 
 .language__img {
@@ -214,15 +216,19 @@ margin-bottom:28px;
   transform: scale(0.9);
 }
 
-.language__name {
-  position: static;
-  font-size: 14px;
-  font-weight: bold;
-  color: #D3AF37;
-  text-align: center;
-}
 
 #languages {
   background-color: #2f2f2f;
   padding: 60px 0;
 }
+
+.language__img--wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.language__img--wrapper:hover .language__name {
+  opacity: 1;
+}
+
+.language__name { opacity: 0; }
