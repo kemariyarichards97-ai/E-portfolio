@@ -200,7 +200,12 @@ margin-bottom:28px;
 .language__img {
   width: 100%;
   max-width: 100px;
-  transition:all 300ms ease;
+   padding: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  background: #ffffff;
+
+  transition: all 300ms ease;
 }
 
 .language__img:hover {
