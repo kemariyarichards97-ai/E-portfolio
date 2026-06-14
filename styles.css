@@ -181,6 +181,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: rgba(231, 225, 225, 0.7);
 }
 
 .language {
